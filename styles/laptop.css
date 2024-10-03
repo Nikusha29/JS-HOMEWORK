@@ -1,0 +1,149 @@
+@media (max-width: 1025px){
+    /* header */
+    header{
+      padding: 16px 32px;
+    }
+    .header_logo{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .logo1{
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+    }
+    .logo2{
+      font-size: 24px;
+      line-height: 32px;
+    }
+    /* home_section2 */
+    .section2{
+      padding-inline: 32px 0;
+    }
+  /* footer */
+    footer{
+      padding-inline: 32px;
+    }
+    /* artwork-section */
+    .artwork_section1 {
+      padding-inline: 55px;
+      /*მომატებულია*/
+    }
+
+  /* contact-section1 */
+   .contact_section1{
+    padding-left: 32px; 
+  }
+  /* contact-section2  */
+  
+  }
+  @media (max-width: 745px){
+    /* header */
+    header{
+      padding-inline: 24px;
+    }
+    .header_span_right{
+      display: none;
+    }
+    .fa-arrow-right-to-bracket, .fa-bars{
+      display: block;
+    }
+    .header_right{
+      column-gap: 8px;
+    }
+    .header_nav{
+      position: fixed;
+      top: 96px;
+      left: -100%;
+      background-color: #B53B1B;
+      width: 240px;
+      height: 260px;
+      padding: 25px 0 0 20px;
+    }
+    .header_ul{
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    .header_a{
+      color: #FFFFFF;
+    }
+    /* home_section2 */
+    .section2{
+      padding-inline: 24px 0;
+    }
+    /* footer */
+    footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .footer_nav_left{
+      margin-bottom: 32px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    .media_box{
+      margin-bottom: 32px;
+    }
+    .footer_logo{
+      margin-bottom: 32px;
+    }
+    .footer_info{
+      display: none;
+    }
+    .footer_nav_right{
+      display: flex;
+      justify-content: center;
+    }
+    .footer_span{
+      margin-right: 0;
+    }
+    .footer_ul_right{
+      width: 104px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    /* artwork-section */
+    
+    /* cards */
+    
+    /* contact-section1 */
+    .contact_section1 {
+    padding-left: 32px;
+    }
+    /* contact-section2  */
+    .contact_section2_leftside {
+      flex-direction: row;
+    }
+
+    
+  }
+  @media (max-width: 652px) {
+    .artwork_section1_h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .section1_sort_p {
+      display: none;
+    }
+    .section1_sort_by {
+      justify-content: center;
+      padding: 0;
+      width: 61px;
+      height: 40px;
+
+    }
+    .bolo2 {
+      display: none;
+    }
+    .btn3, .btn4 {
+      display: none;
+    }
+    .section1_pages_list {
+      width: 40px;
+      height: 40px;
+    }
+  }
